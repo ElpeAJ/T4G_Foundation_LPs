@@ -43,7 +43,7 @@ ul {
 }
 
 li {
-    margin: 10px 0;
+    padding: 10px 0;
 }
 
 button.toggle-btn {
@@ -76,12 +76,58 @@ div.lesson-content {
     display: none; 
 }
 
+.number{
+    /* background-color: #2d51f4; */
+    border-bottom: 3px solid #2d51f4;
+    padding: 0.2rem;
+    /* color: white; */
+    font-size: 0.8rem;
+    /* color:#2d51f4; */
+    border-radius: 50%;
+}
+
 div.lesson-content h3, div.lesson-content p{
     margin-bottom: 0.5rem;
 }
 
 div.lesson-content p{
     text-align: justify;
+    margin-bottom: 2rem;
+}
+
+div.lesson-content h4{
+    font-size: 1.3rem;
+}
+
+.challenge-div{
+    margin-top: 1.5rem;
+}
+
+.submit-div{
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+
+.list-indent{
+    margin-left: 2rem;
+}
+
+div.lesson-content .send{
+    font-size: 1.1rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    background-color: white;
+    border: none;
+}
+
+div.lesson-content .send:hover{
+    background-color: #efefef;
+    color: #2d51f4;
+    cursor: pointer;
+}
+
+div.lesson-content .send a:hover{
+    text-decoration: none;
 }
 
 footer {
@@ -92,4 +138,20 @@ footer {
     position: absolute;
     width: 100%;
     /* bottom: 0; */
+}
+
+/* Responsive styles for small screens (max-width: 600px) */
+@media (max-width: 600px) {
+    
+    header h1 {
+        font-size: 2.5rem; /* Smaller font size */
+    }
+
+    header p {
+        font-size: 14px; /* Adjusted font size for better readability */
+    }
+
+    ol{
+        text-align: justify;
+    }
 }
