@@ -112,6 +112,10 @@ div.lesson-content h4{
     margin-left: 2rem;
 }
 
+video{
+    width: 100%;
+}
+
 div.lesson-content .send{
     font-size: 1.1rem;
     padding: 1.2rem;
