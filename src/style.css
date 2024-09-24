@@ -144,6 +144,11 @@ footer {
     /* bottom: 0; */
 }
 
+i{
+    color: blue;
+    opacity: 0.7;
+}
+
 /* Responsive styles for small screens (max-width: 600px) */
 @media (max-width: 600px) {
     *{
