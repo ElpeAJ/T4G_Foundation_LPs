@@ -110,6 +110,7 @@ div.lesson-content h4{
 
 .list-indent{
     margin-left: 2rem;
+    margin-top: 0.5rem;
 }
 
 video{
@@ -132,6 +133,16 @@ div.lesson-content .send:hover{
 
 div.lesson-content .send a:hover{
     text-decoration: none;
+}
+
+.down{
+    display: block;
+    margin-top: 1rem;
+}
+
+.group{
+    color: blue;
+    font-size: large;
 }
 
 footer {
