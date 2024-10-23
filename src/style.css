@@ -178,8 +178,12 @@ i{
         text-align: justify;
     } */
 
-    .responsive{
+    /* .responsive{
         display: block;
+        width: 100%;
+    } */
+
+    .responsive img{
         width: 100%;
     }
 }
