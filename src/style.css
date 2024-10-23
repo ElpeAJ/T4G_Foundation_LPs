@@ -177,4 +177,9 @@ i{
     /* ol{
         text-align: justify;
     } */
+
+    .responsive{
+        display: block;
+        width: 100%;
+    }
 }
