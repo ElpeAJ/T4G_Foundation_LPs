@@ -182,7 +182,7 @@ i{
 }
 
 .space-top{
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .motivate{
@@ -218,5 +218,10 @@ i{
 
     .responsive img{
         width: 100%;
+    }
+
+    .motivate{
+        margin: 3rem 0.5rem;
+        padding: 1rem;
     }
 }
