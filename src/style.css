@@ -242,4 +242,9 @@ table {
         margin: 3rem 0.5rem;
         padding: 1rem;
     }
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+      }
 }
