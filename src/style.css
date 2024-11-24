@@ -304,4 +304,27 @@ table {
       th, td {
         padding: 5px;
       }
+    
+      .quizzes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+    
+      .quiz-div{
+        display: flex;
+        align-items: center; /* Aligns items vertically */
+        justify-content: center; /* Aligns items horizontally */
+        width: 80%;
+      }
+    
+      /* .quiz-send{
+        display: block;
+        font-size: 1.1rem;
+        padding: 1rem;
+        border-radius: 0.2rem;
+        background-color: white;
+        border: none;
+      } */
 }
