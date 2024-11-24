@@ -317,6 +317,7 @@ table {
         align-items: center; /* Aligns items vertically */
         justify-content: center; /* Aligns items horizontally */
         width: 80%;
+        border-radius: 20px;
       }
     
       /* .quiz-send{
