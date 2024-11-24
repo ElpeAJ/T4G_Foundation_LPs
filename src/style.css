@@ -211,6 +211,60 @@ table {
     background-color: #f2f2f2;
   }
 
+  .Qheading{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .quizzes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .quiz-div{
+    display: flex;
+    /* flex-direction: column; Default, but you can use row for horizontal alignment */
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Aligns items horizontally */
+    border: 2px solid blue;
+    border-radius: 13px;
+    width: 40%;
+    height: 200px;
+    background-color: #2d51f4;
+  }
+
+  .quiz-send{
+    display: block;
+    /* margin: auto; */
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    border: none;
+  }
+
+  .quiz-send a{
+    text-decoration: none;
+    color: #2d51f4;
+} 
+
+.quiz-send:hover{
+    /* background-color: #efefef; */
+    /* background-color: #2d51f4; */
+    cursor: pointer;
+    color: white;
+}
+
+/* .quiz-send a:hover{
+    text-decoration: none;
+    color: #2d51f4;
+    background-color: #2d51f4;
+    color: white;
+}  */
+
+
 /* Responsive styles for small screens (max-width: 600px) */
 @media (max-width: 600px) {
     *{
