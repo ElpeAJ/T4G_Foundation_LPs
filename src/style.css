@@ -258,12 +258,20 @@ table {
 }
 
 /* .quiz-send a:hover{
-    text-decoration: none;
+  text-decoration: none;
     color: #2d51f4;
     background-color: #2d51f4;
     color: white;
 }  */
 
+@media (max-width: 1150px){
+    div.lesson-content h4{
+        /* display: none; */
+        /* visibility: hidden; */
+        background-color: #333;
+    }
+    
+}
 
 /* Responsive styles for small screens (max-width: 600px) */
 @media (max-width: 600px) {
