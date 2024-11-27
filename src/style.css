@@ -264,6 +264,41 @@ table {
     color: white;
 }  */
 
+.add-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Aligns items horizontally */
+    border: 2px solid blue;
+    border-radius: 13px;
+    width: 40%;
+    height: 200px;
+    background-color: #2d51f4;
+  }
+
+  .add-send{
+    display: block;
+    /* margin: auto; */
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    border: none;
+  }
+
+  .add-send a{
+    text-decoration: none;
+    color: #2d51f4;
+} 
+
+.add-send:hover{
+    /* background-color: #efefef; */
+    /* background-color: #2d51f4; */
+    cursor: pointer;
+    color: white;
+}
+
 @media (max-width: 1150px){
     div.lesson-content h4{
         /* display: none; */
