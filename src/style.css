@@ -299,6 +299,11 @@ table {
     color: white;
 }
 
+.fit{
+    display: block;
+    width: 95%;
+}
+
 /* @media (max-width: 1150px){
     div.lesson-content h4{
         display: none;
