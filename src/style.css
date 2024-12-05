@@ -298,7 +298,8 @@ table {
     cursor: pointer;
     color: white;
 }
-
+/* let fit = document.querySelector(".fit");
+fit.style.display = "block"; */
 .fit{
     display: block;
     width: 95%;
