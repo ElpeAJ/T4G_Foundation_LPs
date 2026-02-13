@@ -11,7 +11,8 @@ body {
 }
 
 header {
-    background-color: #2d51f4;
+    /* background-color: #2d51f4; */
+    background-color: #182c83;
     color: white;
     padding: 3rem;
     text-align: center;
@@ -28,9 +29,23 @@ header p {
 
 section.lesson-list {
     padding: 20px;
-    max-width: 800px;
+    max-width: 800px; 
     margin: 0 auto;
 }
+
+/* Experimenting the layout */
+
+/* section.lesson-list ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+section.lesson-list ul li {
+    width: 45%;
+    margin: 10px;
+} */
 
 h2 {
     text-align: center;
@@ -48,9 +63,10 @@ li {
 
 button.toggle-btn {
     /* background-color: #4CAF50; */
-    background-color: #2d51f4;
+    /* background-color: #2d51f4; */
+    background-color: #182c83;
     color: white;
-    text-shadow: 2px 2px 2px grey;
+    /* text-shadow: 2px 2px 2px rgb(71, 71, 71); */
     padding: 10px;
     /* border: none; */
     border: 1px solid #2d51f4;
